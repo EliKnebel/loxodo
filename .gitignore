@@ -1,3 +1,11 @@
 *.pyc
 .DS_Store
 
+
+*.egg
+
+.eggs/README.txt
+
+build/
+dist/
+node_modules/

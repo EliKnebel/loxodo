@@ -14,13 +14,13 @@ from setuptools import setup
 
 if sys.platform == 'darwin':
     extra_options = dict(
-        name="Loxodo",
+        name="Loxodo Password Safe",
         setup_requires = ['py2app'],
         app = ['loxodo.py'],
         options = dict(
             py2app = dict(
                 argv_emulation = True,
-                iconfile = 'resources/loxodo-icon.icns',
+                iconfile = 'resources/safe.icns',
                 packages = ['src', 'wx'],
                 site_packages = True,
                 resources = ['resources', 'locale', 'LICENSE.txt', 'README.txt']
